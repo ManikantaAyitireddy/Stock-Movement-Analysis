@@ -30,4 +30,4 @@ print(df.isnull().sum())
 # Check the combined dataframe
 print(df.shape)  # Should show 800 rows (600 + 200)
 print(df.head())
-df.to_csv(r'C:/Users/bikki/Downloads/combined_data.csv', index=False)
+df.to_csv(r'C:/Users/micro/Downloads/combined_data.csv', index=False)
