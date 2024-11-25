@@ -97,4 +97,4 @@ df.to_csv('reddit_stock_data.csv', index=False)
 
 print("Data saved to 'reddit_stock_data.csv'")
 # Save to a specific directory
-df.to_csv(r'C:/Users/bikki/Downloads/reddit_stock_data6.csv', index=False)
+df.to_csv(r'C:\Users\micro\Downloads\combined_data.csv', index=False)
