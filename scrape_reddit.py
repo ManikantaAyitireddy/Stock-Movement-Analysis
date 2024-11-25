@@ -13,7 +13,7 @@ reddit = praw.Reddit(client_id=client_id,
 subreddit = reddit.subreddit('investments')  # You can change 'stocks' to any subreddit
 # subreddit = reddit.subreddit('stocks')
 
-# Fetch the top 10 hot posts
+# Fetch the top 1000 hot posts
 for submission in subreddit.hot(limit=1000):
     print(f"Title: {submission.title}")
     print(f"URL: {submission.url}")
